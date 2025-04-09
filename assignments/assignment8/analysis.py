@@ -3,6 +3,8 @@
 import numpy as np
 from scipy import stats
 
+def ismissing(response):
+    return response == "n/a"
 
 def dprime(trial_type, response):
     """
